@@ -1,21 +1,15 @@
-# E-Commerce Customer Segmentation using RFM Analysis (Excel)
+# E-Commerce Customer Segmentation and Product Analysis (Excel)
 
 ## 📋 Project Overview
-Proyek portofolio ini bertujuan untuk menganalisis perilaku pelanggan e-commerce dan melakukan segmentasi menggunakan metode **RFM (Recency, Frequency, Monetary)** guna mendukung strategi pemasaran berbasis data (*data-driven marketing*).
+Proyek portofolio ini menyajikan analisis mendalam mengenai performa produk terlaris dan segmentasi pelanggan e-commerce menggunakan metode **RFM (Recency, Frequency, Monetary)**.
 
-## 🛠️ Tools & Skills Demonstrated
-- **Microsoft Excel**: Advanced Data Cleaning, Pivot Tables, Excel Tables (`Ctrl + T`), dan Formula Lanjutan (`XLOOKUP`, `COUNTIF`, `IFERROR`).
-- **Data Analysis**: Customer Segmentation, Behavioral Insights, and Data Visualization.
-
-## 📂 Project Workflow
-1. **Data Cleaning & Preparation**: Meneliti dan membersihkan data transaksi penjualan e-commerce mentah.
-2. **RFM Metric Calculation**: Menghitung skor *Recency*, *Frequency*, dan *Monetary* untuk setiap pelanggan unik, lalu merangkingnya ke dalam skala 1–5.
-3. **Data Integration**: Mengintegrasikan kembali skor individu (`R`, `F`, `M`, dan `RFM_Score`) ke dalam tabel transaksi utama menggunakan fungsi `=XLOOKUP`.
-4. **Aggregation & Visualization**: Membuat tabel ringkasan distribusi segmen dan menyajikannya dalam bentuk diagram batang (*Bar Chart*) yang interaktif.
+## 📂 Project Structure & Files Included
+- `ecommerce_rfm_summary_report.xlsx`: Berkas laporan ringkasan eksekutif yang berisi:
+  - **Sheet1 (Product Analysis)**: Tabel rekapitulasi dan diagram batang Top 10 Produk Terlaris berdasarkan pendapatan.
+  - **Sheet2 (Customer Segmentation RFM)**: Tabel ringkasan metrik pelanggan unik, skor RFM (`R`, `F`, `M`, `RFM_Score`), serta grafik distribusi segmen pelanggan.
+  *(Catatan: Dataset transaksi mentah berukuran besar tidak disertakan langsung di dalam repository untuk mematuhi batas ukuran file GitHub).*
 
 ## 💡 Key Business Insights & Recommendations
-- **Champions (Skor 555 - ~212 Pelanggan)**: Kelompok pelanggan paling loyal dan bernilai tinggi. *Rekomendasi*: Berikan *reward* eksklusif atau program loyalitas khusus.
-- **At-Risk Customers (Skor 111 - ~567 Pelanggan)**: Pelanggan yang sudah lama tidak aktif bertransaksi. *Rekomendasi*: Jalankan kampanye *Win-Back* melalui diskon khusus atau penawaran produk kembali.
-
-## 🚀 Files Included in Repository
-- `ecomerce_rfm_customer_segmentation.xlsx`: Berkas Excel utama yang berisi data transaksi bersih, tabel ringkasan RFM, serta grafik distribusi segmen pelanggan.
+- **Top Products (Sheet1)**: Mengidentifikasi produk-produk dengan kontribusi pendapatan tertinggi untuk strategi inventaris.
+- **Champions (Skor 555)**: Kelompok pelanggan paling loyal. *Rekomendasi*: Berikan *reward* eksklusif.
+- **At-Risk Customers (Skor 111)**: Pelanggan yang sudah lama tidak aktif. *Rekomendasi*: Jalankan kampanye *Win-Back*.
