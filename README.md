@@ -2,6 +2,7 @@
 
 ## 📋 Project Overview
 Proyek portofolio ini menyajikan analisis mendalam mengenai performa produk terlaris dan segmentasi pelanggan e-commerce menggunakan metode **RFM (Recency, Frequency, Monetary)**.
+Sumber data: E-Commerce Data (Kaggle, carrie1), dataset publik berisi transaksi retailer online Inggris periode Desember 2010 – Desember 2011. Dataset mentah tidak disertakan di repo karena batas ukuran file GitHub.
 
 ## 📂 Project Structure & Files Included
 - `ecommerce_rfm_summary_report.xlsx`: Berkas laporan ringkasan eksekutif yang berisi:
